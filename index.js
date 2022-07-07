@@ -13,11 +13,8 @@ console.log("Resultado da Adção: "+valor1+" + "+valor2+" = "+ad)
 console.log("Resultado da Subtração: "+valor1+" - "+valor2+" = "+su)
 if(valor1 == 0 || valor2 == 0){
     console.log("Multiplicar por zero sempre o resultado será zero!")
-}else{
-    console.log("Resultado da Multiplicação: "+valor1+" * "+valor2+" = "+mul)
-};
-if(valor1 == 0 || valor2 == 0){
     console.log("Divisão por zero sempre irar retornar zero!")
 }else{
+    console.log("Resultado da Multiplicação: "+valor1+" * "+valor2+" = "+mul)
     console.log("Resultado da Divisão: "+valor1+" / "+valor2+" = "+di.toFixed(2))
 };
